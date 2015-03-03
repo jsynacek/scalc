@@ -25,7 +25,7 @@
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
-/* Maximum size of an accumulator arrays. 65536 with a 16-byte long double. */
+/* Maximum size of accumulator arrays. 65536 with a 16-byte long double. */
 const size_t MAX_ACC = 1024 * 1024 / sizeof (long double);
 
 static void
